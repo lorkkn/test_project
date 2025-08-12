@@ -96,7 +96,7 @@ int main()
          player.move(offset);
 
       
-         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
+         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition());
          
        
          head.setPosition(player.getPosition());
