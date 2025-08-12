@@ -1,42 +1,42 @@
 ﻿  Source.cpp
-C:\2d Shooter\Source.cpp(57,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(57,28): warning C4244:         with
-C:\2d Shooter\Source.cpp(57,28): warning C4244:         [
-C:\2d Shooter\Source.cpp(57,28): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(57,28): warning C4244:         ]
-C:\2d Shooter\Source.cpp(58,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(58,28): warning C4244:         with
-C:\2d Shooter\Source.cpp(58,28): warning C4244:         [
-C:\2d Shooter\Source.cpp(58,28): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(58,28): warning C4244:         ]
-C:\2d Shooter\Source.cpp(62,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(62,29): warning C4244:         with
-C:\2d Shooter\Source.cpp(62,29): warning C4244:         [
-C:\2d Shooter\Source.cpp(62,29): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(62,29): warning C4244:         ]
-C:\2d Shooter\Source.cpp(63,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(63,29): warning C4244:         with
-C:\2d Shooter\Source.cpp(63,29): warning C4244:         [
-C:\2d Shooter\Source.cpp(63,29): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(63,29): warning C4244:         ]
-C:\2d Shooter\Source.cpp(67,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(67,29): warning C4244:         with
-C:\2d Shooter\Source.cpp(67,29): warning C4244:         [
-C:\2d Shooter\Source.cpp(67,29): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(67,29): warning C4244:         ]
-C:\2d Shooter\Source.cpp(68,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(68,29): warning C4244:         with
-C:\2d Shooter\Source.cpp(68,29): warning C4244:         [
-C:\2d Shooter\Source.cpp(68,29): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(68,29): warning C4244:         ]
-C:\2d Shooter\Source.cpp(72,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(72,30): warning C4244:         with
-C:\2d Shooter\Source.cpp(72,30): warning C4244:         [
-C:\2d Shooter\Source.cpp(72,30): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(72,30): warning C4244:         ]
-C:\2d Shooter\Source.cpp(73,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\2d Shooter\Source.cpp(73,29): warning C4244:         with
-C:\2d Shooter\Source.cpp(73,29): warning C4244:         [
-C:\2d Shooter\Source.cpp(73,29): warning C4244:             T=float
-C:\2d Shooter\Source.cpp(73,29): warning C4244:         ]
-  2d Shooter.vcxproj -> C:\2d Shooter\x64\Debug\2d Shooter.exe
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(57,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(57,28): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(57,28): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(57,28): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(57,28): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(58,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(58,28): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(58,28): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(58,28): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(58,28): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(62,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(62,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(62,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(62,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(62,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(63,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(63,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(63,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(63,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(63,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(67,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(67,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(67,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(67,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(67,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,30): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,30): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,30): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,30): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,29): warning C4244:         ]
+  2d Shooter.vcxproj -> C:\Users\Олег\Documents\GitHub\test_project\x64\Debug\2d Shooter.exe
