@@ -15,9 +15,9 @@ int main()
     sf::RectangleShape player({ pSize*2,pSize });//player
     sf::ConvexShape head;
     head.setPointCount(3);
-    head.setPoint(0, { 0.f, -30.f });   // верхня вершина (відносно origin)
-    head.setPoint(1, { -25.f, 20.f });  // ліва
-    head.setPoint(2, { 25.f, 20.f });   // права
+    head.setPoint(0, { 0.f, -30.f });   
+    head.setPoint(1, { -25.f, 20.f });  
+    head.setPoint(2, { 25.f, 20.f });   
     head.setFillColor(sf::Color::Green);
     head.setOutlineColor(sf::Color::Black);
     head.setOutlineThickness(2.f);
