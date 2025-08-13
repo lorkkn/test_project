@@ -1,42 +1,42 @@
 ﻿  Source.cpp
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(65,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(65,28): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(65,28): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(65,28): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(65,28): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(66,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(66,28): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(66,28): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(66,28): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(66,28): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,29): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,29): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,29): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,29): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(71,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(71,29): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(71,29): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(71,29): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(71,29): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(75,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(75,29): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(75,29): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(75,29): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(75,29): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(76,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(76,29): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(76,29): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(76,29): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(76,29): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(80,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(80,30): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(80,30): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(80,30): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(80,30): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(81,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(81,29): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(81,29): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(81,29): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(81,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,28): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,28): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,28): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(72,28): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,28): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,28): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,28): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,28): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(73,28): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(77,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(77,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(77,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(77,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(77,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(78,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(78,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(78,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(78,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(78,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(82,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(82,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(82,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(82,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(82,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,29): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(87,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(87,30): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(87,30): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(87,30): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(87,30): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(88,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(88,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(88,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(88,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(88,29): warning C4244:         ]
   2d Shooter.vcxproj -> C:\Users\Олег\Documents\GitHub\test_project\x64\Debug\2d Shooter.exe

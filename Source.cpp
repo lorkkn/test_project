@@ -1,9 +1,14 @@
 #include "Events.h"
+#include "Windows.h"
 
 #define pSize 50
 
 int main()
+
 {
+    HWND hwnd = GetConsoleWindow();
+    ShowWindow(hwnd, SW_HIDE);
+
 	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "2d shooter");
    
     window.setFramerateLimit(60);
@@ -19,7 +24,9 @@ int main()
     player.setFillColor(sf::Color::Yellow);
     player.setOrigin({ pSize ,pSize/2 });
     player.setPosition({200,200});
-
+std::vector<sf::CircleShape> bullets;
+        std::vector<sf::Angle> angles;
+    sf::Clock bullet_clock;
     sf::RectangleShape sight({ 5,5 });//sight
     sight.setFillColor(sf::Color::Black);
 
@@ -83,6 +90,9 @@ int main()
 
         }
 
+
+        
+
          sf::Vector2f pPosition = player.getPosition();
          sf::Vector2u wSize = window.getSize();
          sf::Vector2f newPosition = pPosition + offset;
@@ -95,13 +105,34 @@ int main()
         
          player.move(offset);
 
-      
+         sf::Vector2f direction = sight.getPosition() - player.getPosition();
+
+         head.setRotation(sf::degrees(90)+direction.angle());
+
          sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
          
        
          head.setPosition(player.getPosition());
 
+         
+         if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)&&bullet_clock.getElapsedTime().asSeconds()>0.5) {
+             sf::CircleShape bullet1(5);
+             bullet1.setFillColor(sf::Color::Black);
+             bullet1.setPosition(head.getPosition());
+             bullets.push_back(bullet1);
+
+             angles.push_back(direction.angle());
+             bullet_clock.restart();
+         }
         window.draw(player);
+        
+        for (int i = 0;i < bullets.size();i++) {
+             sf::Vector2f offset_b(5, angles[i]);
+             bullets[i].move(offset_b);
+             window.draw(bullets[i]);
+         }
+
+       
         window.draw(head);
         window.draw(sight);
 
