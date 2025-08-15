@@ -24,8 +24,17 @@ int main()
     player.setFillColor(sf::Color::Yellow);
     player.setOrigin({ playerSize ,playerSize/2 });
     player.setPosition({200,200});
-std::vector<sf::CircleShape> bullets;
-        std::vector<sf::Angle> angles;
+    std::vector<sf::CircleShape> bullets;
+    std::vector<sf::Angle> angles;
+    
+    std::vector<sf::CircleShape> enemies;
+
+    sf::CircleShape enemy;
+    enemy.setPosition(sf::Vector2f(200,200));
+    enemy.setRadius(50);
+    enemy.setFillColor(sf::Color::Red);
+    enemy.setOrigin(sf::Vector2f(50, 50));
+    
     sf::Clock bullet_clock;
     sf::RectangleShape sight({ 5,5 });//sight
     sight.setFillColor(sf::Color::Black);
@@ -59,7 +68,7 @@ std::vector<sf::CircleShape> bullets;
          head.setPosition(player.getPosition());
 
          
-         if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)&&bullet_clock.getElapsedTime().asSeconds()>0.5) {
+         if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Right)&&bullet_clock.getElapsedTime().asSeconds()>0.3) {
              sf::CircleShape bullet1(5);
              bullet1.setFillColor(sf::Color::Black);
              bullet1.setPosition(head.getPosition());
@@ -71,12 +80,27 @@ std::vector<sf::CircleShape> bullets;
         window.draw(player);
         
         for (int i = 0;i < bullets.size();i++) {
-             sf::Vector2f offset_b(5, angles[i]);
+             sf::Vector2f offset_b(15, angles[i]);
              bullets[i].move(offset_b);
              window.draw(bullets[i]);
-         }
+        }
+ 
+        for (int i = 0;i < bullets.size();i++) {
+          /*  if (bullets[i].getPosition().y > window.getSize().y-200) {
+                bullets.erase(bullets.begin()+i);
+                angles.erase(angles.begin() + i);
+           }*/
 
-       
+            sf::Vector2f distance = bullets[i].getPosition() - enemy.getPosition();
+            if (distance.length()<50) {
+                bullets.erase(bullets.begin() + i);
+                angles.erase(angles.begin() + i);
+                enemy.setRadius(50);
+            }
+            
+        }
+
+        window.draw(enemy);
         window.draw(head);
         window.draw(sight);
 
