@@ -1,4 +1,15 @@
 ﻿  Source.cpp
-sfml-window-s-d.lib(Window.obj) : warning LNK4099: PDB '' was not found with 'sfml-window-s-d.lib(Window.obj)' or at ''; linking object as if no debug info
-sfml-window-s-d.lib(JoystickImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-window-s-d.lib(JoystickImpl.obj)' or at ''; linking object as if no debug info
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,108): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,108): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,108): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,108): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,108): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,65): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,65): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,65): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,65): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(84,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(98,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(100,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   2d Shooter.vcxproj -> C:\Users\Олег\Documents\GitHub\test_project\x64\Debug\2d Shooter.exe

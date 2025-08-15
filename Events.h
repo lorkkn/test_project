@@ -10,3 +10,6 @@ void onResize(sf::RenderWindow& window);
 
 void PlayerMovement(sf::RenderWindow& window, sf::RectangleShape& player);
 
+int getRandomNumber(int min, int max);
+
+

@@ -29,13 +29,10 @@ int main()
     
     std::vector<sf::CircleShape> enemies;
 
-    sf::CircleShape enemy;
-    enemy.setPosition(sf::Vector2f(200,200));
-    enemy.setRadius(50);
-    enemy.setFillColor(sf::Color::Red);
-    enemy.setOrigin(sf::Vector2f(50, 50));
     
+
     sf::Clock bullet_clock;
+    sf::Clock enemy_clock;
     sf::RectangleShape sight({ 5,5 });//sight
     sight.setFillColor(sf::Color::Black);
 
@@ -77,6 +74,19 @@ int main()
              angles.push_back(direction.angle());
              bullet_clock.restart();
          }
+
+         if (enemy_clock.getElapsedTime().asSeconds() > 2) {
+             
+             sf::CircleShape enemy_temp;
+             int radius = 50;
+             enemy_temp.setOrigin(sf::Vector2f(50, 50));
+             enemy_temp.setPosition(sf::Vector2f(getRandomNumber(50,window.getSize().x-50), getRandomNumber(0, window.getSize().y)));
+             enemy_temp.setRadius(radius);
+             enemy_temp.setFillColor(sf::Color::Red);
+             enemies.push_back(enemy_temp);
+             enemy_clock.restart();
+         }
+
         window.draw(player);
         
         for (int i = 0;i < bullets.size();i++) {
@@ -85,22 +95,23 @@ int main()
              window.draw(bullets[i]);
         }
  
-        for (int i = 0;i < bullets.size();i++) {
-          /*  if (bullets[i].getPosition().y > window.getSize().y-200) {
-                bullets.erase(bullets.begin()+i);
-                angles.erase(angles.begin() + i);
-           }*/
+        for (int i = bullets.size()-1;i>=0;i--) {
+          
+            for (int k = enemies.size() - 1;k >= 0;k--) {
 
-            sf::Vector2f distance = bullets[i].getPosition() - enemy.getPosition();
-            if (distance.length()<50) {
-                bullets.erase(bullets.begin() + i);
-                angles.erase(angles.begin() + i);
-                enemy.setRadius(50);
+                sf::Vector2f distance = bullets[i].getPosition() - enemies[k].getPosition();
+                if (distance.length() < 50) {
+                   bullets.erase(bullets.begin() + i);
+                   angles.erase(angles.begin() + i);
+                   enemies.erase(enemies.begin() + k);
+                   break;
+                }
             }
             
         }
-
-        window.draw(enemy);
+        for (int k = 0;k < enemies.size();k++) {
+            window.draw(enemies[k]);
+        }
         window.draw(head);
         window.draw(sight);
 
