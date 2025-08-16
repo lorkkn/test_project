@@ -1,5 +1,6 @@
 #include "Events.h"
 #include "Windows.h"
+#include "Classes.h"
 
 
 
@@ -12,17 +13,7 @@ int main()
 	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "2d shooter");
    
     window.setFramerateLimit(60);
-    sf::RectangleShape player({ playerSize*2,playerSize });//player
-    sf::ConvexShape head;
-    head.setPointCount(3);
-    head.setPoint(0, { 0.f, -30.f });   
-    head.setPoint(1, { -25.f, 20.f });  
-    head.setPoint(2, { 25.f, 20.f });   
-    head.setFillColor(sf::Color::Green);
-    head.setOutlineColor(sf::Color::Black);
-    head.setOutlineThickness(2.f);
-    player.setFillColor(sf::Color::Yellow);
-    player.setOrigin({ playerSize ,playerSize/2 });
+    Player player;
     player.setPosition({200,200});
     std::vector<sf::CircleShape> bullets;
     std::vector<sf::Angle> angles;
@@ -53,25 +44,23 @@ int main()
 
         window.clear(sf::Color::White);
         
-        PlayerMovement(window, player);
+        player.Movement(window);
 
-         sf::Vector2f direction = sight.getPosition() - player.getPosition();
+        player.headMovement(sight);
 
-         head.setRotation(sf::degrees(90)+direction.angle());
-
-         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
-         
+        sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
+        
        
-         head.setPosition(player.getPosition());
+         
 
          
          if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Right)&&bullet_clock.getElapsedTime().asSeconds()>0.3) {
              sf::CircleShape bullet1(5);
              bullet1.setFillColor(sf::Color::Black);
-             bullet1.setPosition(head.getPosition());
+             bullet1.setPosition(player.getPosition());
              bullets.push_back(bullet1);
 
-             angles.push_back(direction.angle());
+             angles.push_back(player.getAngle()+sf::degrees(-90));
              bullet_clock.restart();
          }
 
@@ -87,7 +76,7 @@ int main()
              enemy_clock.restart();
          }
 
-        window.draw(player);
+         player.draw(window);
         
         for (int i = 0;i < bullets.size();i++) {
              sf::Vector2f offset_b(15, angles[i]);
@@ -112,7 +101,6 @@ int main()
         for (int k = 0;k < enemies.size();k++) {
             window.draw(enemies[k]);
         }
-        window.draw(head);
         window.draw(sight);
 
 
