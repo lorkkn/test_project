@@ -65,7 +65,7 @@ int main()
              sf::CircleShape enemy_temp;
              int radius = 50;
              enemy_temp.setOrigin(sf::Vector2f(50, 50));
-             enemy_temp.setPosition(sf::Vector2f(getRandomNumber(50,window.getSize().x-50), getRandomNumber(0, window.getSize().y)));
+             enemy_temp.setPosition(sf::Vector2f(getRandomNumber(50,window.getSize().x-50),getRandomNumber(0, window.getSize().y)));
              enemy_temp.setRadius(radius);
              enemy_temp.setFillColor(sf::Color::Red);
              enemies.push_back(enemy_temp);
