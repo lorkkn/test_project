@@ -7,26 +7,25 @@
 int main()
 
 {
+    //settings
     HWND hwnd = GetConsoleWindow();
     ShowWindow(hwnd, SW_HIDE);
-
 	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "2d shooter");
-   
     window.setFramerateLimit(60);
+   
+    //object initialization
     Player player;
     player.setPosition({200,200});
     std::vector<sf::CircleShape> bullets;
-    std::vector<sf::Angle> angles;
-    
+    std::vector<sf::Angle> angles; 
     std::vector<sf::CircleShape> enemies;
-
-    
-
     sf::Clock bullet_clock;
     sf::Clock enemy_clock;
-    sf::RectangleShape sight({ 5,5 });//sight
+    sf::RectangleShape sight({ 5,5 });
     sight.setFillColor(sf::Color::Black);
 
+
+    //main loop
     while (window.isOpen())
     {
         while (const std::optional event = window.pollEvent())
@@ -44,16 +43,13 @@ int main()
 
         window.clear(sf::Color::White);
         
+
+        //game logic
+        //-----------------------------------------------------------------------------------------------------------------
         player.Movement(window);
-
         player.headMovement(sight);
-
         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
-        
        
-         
-
-         
          if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Right)&&bullet_clock.getElapsedTime().asSeconds()>0.3) {
              sf::CircleShape bullet1(5);
              bullet1.setFillColor(sf::Color::Black);
@@ -76,7 +72,7 @@ int main()
              enemy_clock.restart();
          }
 
-         player.draw(window);
+        
         
         for (int i = 0;i < bullets.size();i++) {
              sf::Vector2f offset_b(15, angles[i]);
@@ -98,6 +94,11 @@ int main()
             }
             
         }
+
+        //-----------------------------------------------------------------------------------------------------------------
+
+        //drawing 
+        player.draw(window);
         for (int k = 0;k < enemies.size();k++) {
             window.draw(enemies[k]);
         }
