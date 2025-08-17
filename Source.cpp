@@ -51,7 +51,12 @@ int main()
         player.headMovement(sight);
         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
        
-        Shooting(player, bullets, bullet_clock, 0.1);
+
+        if (bullet_clock.getElapsedTime().asSeconds() > 0.1) {
+            Shooting(player, bullets, bullet_clock, 0.1);
+            bullet_clock.restart();
+        }
+       
 
 
          if (enemy_clock.getElapsedTime().asSeconds() > 2) {

@@ -126,3 +126,22 @@ public:
         window.draw(bullet);
     }
 };
+
+class Enemy {
+private:
+    sf::CircleShape enemy;
+    int hp;
+public:
+    Enemy(sf::Vector2f pos) {
+        enemy.setOrigin(sf::Vector2f(50, 50));
+        enemy.setPosition(pos);
+        enemy.setRadius(50);
+        enemy.setFillColor(sf::Color::Red);
+    }
+    void ChangeHP(int change) {
+        hp += change;
+    }
+    void SetHP(int sethp) {
+        hp = sethp;
+    }
+};
