@@ -11,8 +11,10 @@ void onResize(sf::RenderWindow& window);
 
 void PlayerMovement(sf::RenderWindow& window, sf::RectangleShape& player);
 
-void Shooting(Player player, std::vector<Bullet>& bullets, sf::Clock& bullet_clock, float freq);
+void Shooting(Player player, std::vector<Bullet>& bullets, sf::Clock &bullet_clock);
 
 int getRandomNumber(int min, int max);
+
+void EnemySpawn(sf::RenderWindow& window, Player& player, std::vector<Enemy>& enemies);
 
 

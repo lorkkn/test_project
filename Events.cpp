@@ -77,11 +77,11 @@ void PlayerMovement(sf::RenderWindow& window, sf::RectangleShape& player) {
 }
 
 
-void Shooting( Player player, std::vector<Bullet>& bullets, sf::Clock& bullet_clock, float freq) {
+void Shooting(Player player, std::vector<Bullet>& bullets, sf::Clock& bullet_clock) {
     if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Right) ) {
         Bullet bullet(player.getPosition(), player.getAngle() + sf::degrees(-90), 30);
         bullets.push_back(Bullet(player.getPosition(), player.getAngle() + sf::degrees(-90), 30));
-     
+        bullet_clock.restart();
     }
 }
 
@@ -91,4 +91,10 @@ int getRandomNumber(int min, int max)
     return static_cast<int>(rand() * fraction * (max - min + 1) + min);
 }
 
-//void EnemySpawn(Player player, std::vector<Bullet>& bullets, sf::Clock& bullet_clock, float freq)
+void EnemySpawn(sf::RenderWindow &window,Player &player, std::vector<Enemy>& enemies) {
+    
+    sf::Vector2f point(getRandomNumber(50, window.getSize().x - 50), getRandomNumber(0, window.getSize().y));
+    while()
+    Enemy enemy();
+    enemies.push_back(enemy);
+}

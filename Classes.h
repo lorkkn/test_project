@@ -125,6 +125,7 @@ public:
     void Draw(sf::RenderWindow& window) {
         window.draw(bullet);
     }
+    
 };
 
 class Enemy {
@@ -137,11 +138,21 @@ public:
         enemy.setPosition(pos);
         enemy.setRadius(50);
         enemy.setFillColor(sf::Color::Red);
+        hp = 2;
     }
     void ChangeHP(int change) {
         hp += change;
     }
     void SetHP(int sethp) {
         hp = sethp;
+    }
+    int GetHP() {
+        return hp;
+    }
+    void Draw(sf::RenderWindow& window) {
+        window.draw(enemy);
+    }
+    sf::Vector2f getPosition() {
+        return enemy.getPosition();
     }
 };

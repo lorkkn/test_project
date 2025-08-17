@@ -17,7 +17,7 @@ int main()
     Player player;
     player.setPosition({200,200});
     std::vector<Bullet> bullets;
-    std::vector<sf::CircleShape> enemies;
+    std::vector<Enemy> enemies;
     sf::Clock bullet_clock;
     sf::Clock enemy_clock;
     sf::RectangleShape sight({ 5,5 });
@@ -53,21 +53,14 @@ int main()
        
 
         if (bullet_clock.getElapsedTime().asSeconds() > 0.1) {
-            Shooting(player, bullets, bullet_clock, 0.1);
-            bullet_clock.restart();
+            Shooting(player, bullets,bullet_clock);
         }
        
 
 
          if (enemy_clock.getElapsedTime().asSeconds() > 2) {
              
-             sf::CircleShape enemy_temp;
-             int radius = 50;
-             enemy_temp.setOrigin(sf::Vector2f(50, 50));
-             enemy_temp.setPosition(sf::Vector2f(getRandomNumber(50,window.getSize().x-50),getRandomNumber(0, window.getSize().y)));
-             enemy_temp.setRadius(radius);
-             enemy_temp.setFillColor(sf::Color::Red);
-             enemies.push_back(enemy_temp);
+             EnemySpawn(window, player, enemies);
              enemy_clock.restart();
          }
 
@@ -84,11 +77,19 @@ int main()
                 
                 if (sf::Vector2f(bullets[i].getPosition() - enemies[k].getPosition()).length() < 50) {
                    bullets.erase(bullets.begin() + i);
-                   enemies.erase(enemies.begin() + k);
+                   enemies[k].ChangeHP(-1);
                    break;
                 }
             }
             
+        }
+
+        for (int k = enemies.size() - 1;k >= 0;k--) {
+
+
+            if (enemies[k].GetHP()<=0) {
+                enemies.erase(enemies.begin() + k);
+            }
         }
 
         //----------------------------------------------------------------------------------------------------------------
@@ -96,7 +97,7 @@ int main()
         //drawing 
         player.draw(window);
         for (int k = 0;k < enemies.size();k++) {
-            window.draw(enemies[k]);
+            enemies[k].Draw(window);
         }
         for (int k = 0;k < bullets.size();k++) {
             bullets[k].Draw(window);
