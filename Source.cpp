@@ -46,6 +46,8 @@ int main()
 
         //game logic
         //-----------------------------------------------------------------------------------------------------------------
+        //make bullet a class(circle, angle, speed)
+        //make enemy a class(circle,hp)
         player.Movement(window);
         player.headMovement(sight);
         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));

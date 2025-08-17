@@ -1,4 +1,61 @@
-﻿  Source.cpp
+﻿  Player.cpp
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(48,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(48,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(48,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(48,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(48,29): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(52,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(52,30): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(52,30): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(52,30): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(52,30): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(53,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(53,30): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(53,30): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(53,30): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(53,30): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(57,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(57,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(57,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(57,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(57,29): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(58,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(58,30): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(58,30): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(58,30): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(58,30): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(62,30): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(62,30): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(62,30): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(62,30): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(62,30): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(63,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(63,29): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(63,29): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(63,29): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Classes.h(63,29): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+  
+  Source.cpp
 C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
 C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244:         with
 C:\Users\Олег\Documents\GitHub\test_project\Classes.h(47,29): warning C4244:         [
@@ -55,17 +112,18 @@ C:\Users\Олег\Documents\GitHub\test_project\Classes.h(63,29): warning C4244:
 C:\Users\Олег\Documents\GitHub\test_project\Classes.h(63,29): warning C4244:         ]
   (compiling source file 'Source.cpp')
   
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,107): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,107): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,107): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,107): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,107): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,65): warning C4244:         with
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,65): warning C4244:         [
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,65): warning C4244:             T=float
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(68,65): warning C4244:         ]
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(69,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(83,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(85,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,107): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,107): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,107): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,107): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,107): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,65): warning C4244:         with
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,65): warning C4244:         [
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,65): warning C4244:             T=float
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(70,65): warning C4244:         ]
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(71,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(85,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Олег\Documents\GitHub\test_project\Source.cpp(87,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
   2d Shooter.vcxproj -> C:\Users\Олег\Documents\GitHub\test_project\x64\Debug\2d Shooter.exe

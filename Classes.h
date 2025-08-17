@@ -5,7 +5,7 @@
 
 class Player
 {
-public:
+private:
 	sf::RectangleShape body;
 	sf::ConvexShape head;
 public:
@@ -99,5 +99,24 @@ public:
     }
     sf::Angle getAngle() {
         return head.getRotation();
+    }
+};
+
+class Bullet {
+private:
+    sf::CircleShape bullet;
+    sf::Angle angle;
+    int speed;
+    int freq;
+public:
+    Bullet(sf::Vector2f position, sf::Angle angle_t, int speed_t, int freq_t) {
+        angle = angle_t;
+        speed = speed_t;
+        freq = freq_t;
+        bullet.setPosition(position);
+        bullet.setFillColor(sf::Color::Black);
+    }
+    void Movement(sf::RenderWindow window) {
+
     }
 };
