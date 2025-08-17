@@ -16,8 +16,7 @@ int main()
     //object initialization
     Player player;
     player.setPosition({200,200});
-    std::vector<sf::CircleShape> bullets;
-    std::vector<sf::Angle> angles; 
+    std::vector<Bullet> bullets;
     std::vector<sf::CircleShape> enemies;
     sf::Clock bullet_clock;
     sf::Clock enemy_clock;
@@ -52,15 +51,8 @@ int main()
         player.headMovement(sight);
         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
        
-         if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Right)&&bullet_clock.getElapsedTime().asSeconds()>0.3) {
-             sf::CircleShape bullet1(5);
-             bullet1.setFillColor(sf::Color::Black);
-             bullet1.setPosition(player.getPosition());
-             bullets.push_back(bullet1);
+        Shooting(player, bullets, bullet_clock, 0.1);
 
-             angles.push_back(player.getAngle()+sf::degrees(-90));
-             bullet_clock.restart();
-         }
 
          if (enemy_clock.getElapsedTime().asSeconds() > 2) {
              
@@ -77,19 +69,16 @@ int main()
         
         
         for (int i = 0;i < bullets.size();i++) {
-             sf::Vector2f offset_b(15, angles[i]);
-             bullets[i].move(offset_b);
-             window.draw(bullets[i]);
+            bullets[i].Movement();
         }
  
         for (int i = bullets.size()-1;i>=0;i--) {
           
             for (int k = enemies.size() - 1;k >= 0;k--) {
 
-                sf::Vector2f distance = bullets[i].getPosition() - enemies[k].getPosition();
-                if (distance.length() < 50) {
+                
+                if (sf::Vector2f(bullets[i].getPosition() - enemies[k].getPosition()).length() < 50) {
                    bullets.erase(bullets.begin() + i);
-                   angles.erase(angles.begin() + i);
                    enemies.erase(enemies.begin() + k);
                    break;
                 }
@@ -103,6 +92,9 @@ int main()
         player.draw(window);
         for (int k = 0;k < enemies.size();k++) {
             window.draw(enemies[k]);
+        }
+        for (int k = 0;k < bullets.size();k++) {
+            bullets[k].Draw(window);
         }
         window.draw(sight);
 

@@ -68,9 +68,9 @@ public:
 
 
 
-        sf::Vector2f pPosition = head.getPosition();
+        
         sf::Vector2u wSize = window.getSize();
-        sf::Vector2f newPosition = pPosition + offset;
+        sf::Vector2f newPosition = body.getPosition() + offset;
         if (newPosition.x <0 + playerSize / 2 || newPosition.x > wSize.x - playerSize / 2) {
             offset.x = 0;
         }
@@ -107,16 +107,22 @@ private:
     sf::CircleShape bullet;
     sf::Angle angle;
     int speed;
-    int freq;
 public:
-    Bullet(sf::Vector2f position, sf::Angle angle_t, int speed_t, int freq_t) {
+    Bullet(sf::Vector2f position, sf::Angle angle_t, int speed_t) {
         angle = angle_t;
         speed = speed_t;
-        freq = freq_t;
         bullet.setPosition(position);
         bullet.setFillColor(sf::Color::Black);
+        bullet.setRadius(5);
     }
-    void Movement(sf::RenderWindow window) {
-
+    void Movement() {
+        sf::Vector2f offset_b(speed, angle);
+        bullet.move(offset_b);
+    }
+    sf::Vector2f getPosition() {
+        return bullet.getPosition();
+    }
+    void Draw(sf::RenderWindow& window) {
+        window.draw(bullet);
     }
 };

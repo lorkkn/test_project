@@ -76,6 +76,15 @@ void PlayerMovement(sf::RenderWindow& window, sf::RectangleShape& player) {
 
 }
 
+
+void Shooting( Player player, std::vector<Bullet>& bullets, sf::Clock& bullet_clock, float freq) {
+    if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Right) && bullet_clock.getElapsedTime().asSeconds() > freq) {
+        Bullet bullet(player.getPosition(), player.getAngle() + sf::degrees(-90), 30);
+        bullets.push_back(Bullet(player.getPosition(), player.getAngle() + sf::degrees(-90), 30));
+        bullet_clock.restart();
+    }
+}
+
 int getRandomNumber(int min, int max)
 {
     static const double fraction = 1.0 / (static_cast<double>(RAND_MAX) + 1.0);
