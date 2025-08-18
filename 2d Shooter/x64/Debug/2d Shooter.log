@@ -62,56 +62,56 @@ C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Classes.h(119,31): warning C4244:   
 C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Classes.h(119,31): warning C4244:         ]
   (compiling source file 'Events.cpp')
   
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,25): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,25): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,25): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,25): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,25): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,25): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,25): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,25): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,25): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,25): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,26): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,26): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,26): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,26): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,26): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,26): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,26): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,26): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,26): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,26): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,25): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,25): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,25): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,25): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,25): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,26): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,26): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,26): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,26): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,26): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,26): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,26): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,26): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,26): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,26): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,25): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,25): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,25): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,25): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,25): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,91): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,91): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,91): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,91): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,91): warning C4244:         ]
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,45): warning C4244:         with
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,45): warning C4244:         [
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,45): warning C4244:             T=float
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(97,45): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,19): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,19): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,19): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,19): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(41,19): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,19): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,19): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,19): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,19): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(42,19): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,20): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,20): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,20): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,20): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(46,20): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,20): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,20): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,20): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,20): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(47,20): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,19): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,19): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,19): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,19): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(51,19): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,20): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,20): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,20): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,20): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(52,20): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,20): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,20): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,20): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,20): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(56,20): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,19): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,19): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,19): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,19): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(57,19): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(100,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(100,28): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(100,28): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(100,28): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(100,28): warning C4244:         ]
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(101,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(101,28): warning C4244:         with
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(101,28): warning C4244:         [
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(101,28): warning C4244:             T=float
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Events.cpp(101,28): warning C4244:         ]
   Source.cpp
 C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Classes.h(47,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
 C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Classes.h(47,29): warning C4244:         with
@@ -176,9 +176,9 @@ C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Classes.h(119,31): warning C4244:   
 C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Classes.h(119,31): warning C4244:         ]
   (compiling source file 'Source.cpp')
   
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Source.cpp(73,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Source.cpp(75,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Source.cpp(87,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Source.cpp(70,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Source.cpp(72,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\olegm\Source\Repos\Hotline_Zhuraki\Source.cpp(85,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
 sfml-graphics-s-d.lib(Transformable.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Transformable.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(VertexArray.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(VertexArray.obj)' or at ''; linking object as if no debug info
@@ -221,8 +221,8 @@ sfml-window-s-d.lib(VulkanImplWin32.obj) : warning LNK4099: PDB '' was not found
 sfml-window-s-d.lib(WglContext.obj) : warning LNK4099: PDB '' was not found with 'sfml-window-s-d.lib(WglContext.obj)' or at ''; linking object as if no debug info
 sfml-window-s-d.lib(JoystickImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-window-s-d.lib(JoystickImpl.obj)' or at ''; linking object as if no debug info
 sfml-window-s-d.lib(SensorImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-window-s-d.lib(SensorImpl.obj)' or at ''; linking object as if no debug info
-sfml-system-s-d.lib(Clock.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(Clock.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(Vector2.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(Vector2.obj)' or at ''; linking object as if no debug info
+sfml-system-s-d.lib(Clock.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(Clock.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(String.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(String.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(Err.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(Err.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(Utils.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(Utils.obj)' or at ''; linking object as if no debug info

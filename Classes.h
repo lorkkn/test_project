@@ -137,7 +137,7 @@ public:
         enemy.setOrigin(sf::Vector2f(50, 50));
         enemy.setPosition(pos);
         enemy.setRadius(50);
-        enemy.setFillColor(sf::Color::Red);
+        enemy.setFillColor(sf::Color::Magenta);
         hp = 2;
     }
     void ChangeHP(int change) {
@@ -154,5 +154,11 @@ public:
     }
     sf::Vector2f getPosition() {
         return enemy.getPosition();
+    }
+    void move(sf::Vector2f mov) {
+        enemy.move(mov);
+    }
+    sf::CircleShape& GetShape() {
+        return enemy;
     }
 };

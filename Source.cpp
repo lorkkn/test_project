@@ -45,39 +45,37 @@ int main()
 
         //game logic
         //-----------------------------------------------------------------------------------------------------------------
-        //make bullet a class(circle, angle, speed)
-        //make enemy a class(circle,hp)
+        
         player.Movement(window);
         player.headMovement(sight);
         sight.setPosition((sf::Vector2f)sf::Mouse::getPosition(window));
        
 
-        if (bullet_clock.getElapsedTime().asSeconds() > 0.1) {
+        if (bullet_clock.getElapsedTime().asSeconds() > 0.2) {
             Shooting(player, bullets,bullet_clock);
         }
-       
-
-
-         if (enemy_clock.getElapsedTime().asSeconds() > 2) {
+      
+        if (enemy_clock.getElapsedTime().asSeconds() > 2) {
              
-             EnemySpawn(window, player, enemies);
-             enemy_clock.restart();
-         }
+            EnemySpawn(window, player, enemies);
+            enemy_clock.restart();
+        }
 
-        
-        
         for (int i = 0;i < bullets.size();i++) {
             bullets[i].Movement();
         }
+
+        EnemyMovement(window, player, enemies);
  
         for (int i = bullets.size()-1;i>=0;i--) {
           
             for (int k = enemies.size() - 1;k >= 0;k--) {
 
                 
-                if (sf::Vector2f(bullets[i].getPosition() - enemies[k].getPosition()).length() < 50) {
+                if (sf::Vector2f(bullets[i].getPosition() - enemies[k].getPosition()).length() < 50) {//change to var
                    bullets.erase(bullets.begin() + i);
                    enemies[k].ChangeHP(-1);
+                   enemies[k].GetShape().setFillColor(sf::Color::Red);
                    break;
                 }
             }
