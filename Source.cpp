@@ -23,7 +23,7 @@ int main()
     sf::RectangleShape sight({ 5,5 });
     sight.setFillColor(sf::Color::Black);
 
-
+    window.setMouseCursorVisible(0);
     //main loop
     while (window.isOpen())
     {
