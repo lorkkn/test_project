@@ -11,7 +11,7 @@ int main()
     HWND hwnd = GetConsoleWindow();
     ShowWindow(hwnd, SW_HIDE);
 	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "2d shooter");
-    window.setFramerateLimit(60);
+    window.setFramerateLimit(90);
    
     //object initialization
     Player player;
