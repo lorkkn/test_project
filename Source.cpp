@@ -7,7 +7,7 @@
 int main()
 
 {
-    //settings
+    //settings1
     HWND hwnd = GetConsoleWindow();
     ShowWindow(hwnd, SW_HIDE);
 	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "2d shooter");
